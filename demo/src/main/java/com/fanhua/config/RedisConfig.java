@@ -59,7 +59,7 @@ public class RedisConfig implements IDisconfUpdate {
 
     public void reload() throws Exception {
 
-        LOGGER.info("host: hhhhhhhhhhhhhhhhhhhhhh" + host);
-        LOGGER.info("port: pppppppppppppppppppppp" + port);
+        LOGGER.info("host: " + host);
+        LOGGER.info("port: " + port);
     }
 }
